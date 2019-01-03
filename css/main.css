@@ -116,9 +116,13 @@ nav a:before {
 	width:80%;
 }
 
+.menu-icon{
+	margin-right: 10px;
+}
+
 #map {
 	height: 400px;
-	margin: 0 auto 50px;
+	margin: 0 auto 50px auto;
 	width: 84.5%;
 }
 
