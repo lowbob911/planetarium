@@ -9,7 +9,7 @@ $(function() {
 		}
 	});
 
-	('.reg-btn.collapsed').click(function() {
+	$('.reg-btn.collapsed').click(function() {
 		gtag('event', 'Registration Button Click');
 	});
 });
