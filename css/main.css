@@ -1,150 +1,128 @@
 body {
-    background-image: url("../img/background.jpeg");
-    background-repeat: repeat-x;
-    background-color: rgb(0,57,102);SSSS
+	background-color: rgb(0,57,102);
+	background-image: url("../img/background.jpeg");
+	background-repeat: repeat-x;
+	color: #fff;
+	font-size: 18px;
 }
-.main-navbar{
-    background-color: rgba(9,9,9,0.5);
-    color: white;
+.main-navbar {
+	background-color: #084B8A;
+	color: white;
 }
 
-.main-navbar .navbar-nav .nav-link{
-    color: white;
-    font-weight: bold;
-    font-size: 22px;
-    padding-right: 20px;
-    padding-left: 20px;
-    border-width: 0 1px;
-    border-color: #ffffff;
-    border-style: solid;
+.main-navbar .navbar-nav .nav-link {
+	border-color: rgba(255,255,255,.5);
+	border-style: solid;
+	border-width: 0 1px;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 /*.main-navbar .navbar-nav > a:hover, .navbar-default .navbar-nav > li > a:focus {*/
-    /*background-color: rgb(240,255,255,0.5);*/
+	/*background-color: rgb(240,255,255,0.5);*/
 /*}*/
 
 .navbar-nav.shift a {
-    position:relative;
-    z-index: 1;
+	position:relative;
+	z-index: 1;
 }
 .navbar-nav.shift a:hover {
-    color: #ffffff;
+	color: #ffffff;
 }
 .navbar-nav.shift a:after {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    margin: auto;
-    width: 100%;
-    height: 1px;
-    content: '.';
-    color: transparent;
-    background-color: rgba(54, 97, 192, 0.6);
-    visibility: none;
-    opacity: 0;
-    z-index: -1;
+	background-color: rgba(54, 97, 192, .5);
+	bottom: 0;
+	color: transparent;
+	content: '.';
+	display: block;
+	height: 1px;
+	left: 0;
+	margin: auto;
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	visibility: none;
+	width: 100%;
+	z-index: -1;
 }
 .navbar-nav.shift a:hover:after {
-    opacity: 1;
-    visibility: visible;
-    height: 100%;
+	height: 100%;
+	opacity: 1;
+	visibility: visible;
 }
 
 nav a,
 nav a:after,
 nav a:before {
-    transition: all .5s;
+	transition: all .5s;
 }
 
-body{
-    color: white;
+.mobile-menu { color:white; }
+
+.container {
+	background-color: rgba(9,9,9,0.3);
+	height: 100%;
 }
 
-.inf-container{
-    margin-top: 50px;
-    text-align: center;
+.section {
+	margin: 0 auto;
+	width: 85%;
 }
 
-.fact-icon{
-    width:15%;
-}
-
-.fact-text{
-    height: 100px;
-    line-height: 100px;
-    text-align: center;
-    width:80%;
-    display: inline-block;
-}
-
-.fact-p{
-    display: inline-block;
-    vertical-align: middle;
-    line-height: normal;
-}
-
-.fact{
-    width:80%;
-    margin: 100px auto 100px auto;
-}
-
-.container{
-    background-color: rgba(9,9,9,0.3);
-    height: 100%;
-}
-
-.carousel-item img{
-    width:400px;
-    heigth:300px;
-}
+.inf-container { margin: 50px auto; }
 
 .carousel{
-    width: 50%;
-    margin: 0 auto;
+	margin: 0 auto;
+	width: 50%;
+}
+.carousel-control-prev { left: -85px; }
+.carousel-control-next { right: -85px; }
+.carousel-item img { width:400px; }
+
+.registration {
+	background: #084B8A;
+	margin-bottom: 50px;
+	padding: 35px 15px;
+	text-align: center;
+}
+.reg-form { margin: 20px auto 0 auto; }
+.reg-btn {
+	font-size: 20px;
+	font-weight: bold;
+	height: 60px;
+	width: 220px;
 }
 
-.photo-container{
-    text-align: center;
+.fact {
+	border-bottom: 1px solid #138496;
+	border-top: 1px solid #138496;
+	margin: 80px auto;
+	padding: 20px 0;
+	text-align: center;
+	width: 85%;
 }
-
-.contacts{
-    text-align: center;
+.fact-icon {
+	margin-right: 15px;
+	width: 12%;
 }
-
-.registration{
-    text-align: center;
-}
-
-.reg-form{
-    margin: 20px auto 0 auto;
-}
-
-.photo-container{
-    margin-top:100px;
+.fact-text {
+	display: inline-block;
+	text-align: left;
+	vertical-align: middle;
+	width:80%;
 }
 
 #map {
-    width: 80%;
-    margin: 0 auto 20px auto;
-    height: 400px;
+	height: 400px;
+	margin: 0 auto 50px;
+	width: 84.5%;
 }
 
-.reg-btn{
-    width: 220px;
-    height: 90px;
-    font-weight: bold;
-    font-size: 20px;
+footer {
+	background-image: url("../img/footer-bg.png");
+	height: 400px;
 }
-
-.mobile-menu{
-    color:white;
-}
-
-footer{
-    height: 400px;
-    background-image: url("../img/footer-bg.png")
-}
-
