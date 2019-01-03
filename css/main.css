@@ -1,8 +1,3 @@
-@font-face {
-    font-family: myFirstFont;
-    src: url(.woff);
-}
-
 body {
     background-image: url("../img/background.jpeg");
     background-repeat: repeat-x;
@@ -73,10 +68,29 @@ body{
     text-align: center;
 }
 
+.registration{
+    text-align: center;
+}
+
+.reg-form{
+    margin: 20px auto 0 auto;
+}
+
+.photo-container{
+    margin-top:100px;
+}
+
 #map {
     width: 80%;
     margin: 0 auto 20px auto;
     height: 400px;
+}
+
+.reg-btn{
+    width: 220px;
+    height: 90px;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 footer{
