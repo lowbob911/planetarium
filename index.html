@@ -21,6 +21,11 @@
 		gtag('js', new Date());
 		gtag('config', 'UA-131543443-1');
 	</script>
+	<script>
+        function resizeIframe(obj) {
+            obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+        }
+	</script>
 </head>
 <body>
 	<nav class="navbar navbar-expand-md main-navbar">
@@ -54,7 +59,7 @@
 			</div>
 			<div id="reg-form" class="collapse reg-form">
 				<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd38OkIOuHO2YxyOfpTaLL3IBuHF3UG2E_2VyI6Can6BfgTdg/viewform?embedded=true"
-				class="reg-frame" frameborder="0" marginheight="0" marginwidth="0">Загрузка...</iframe>
+				class="reg-frame" frameborder="0" marginheight="0" marginwidth="0" onload="resizeIframe(this)">Загрузка...</iframe>
 			</div>
 		</div>
 		<div id="photo" class="row">
