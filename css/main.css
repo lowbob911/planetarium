@@ -99,13 +99,13 @@ nav a:before {
 
 @media (min-width: 451px) {
 	.reg-frame{
-		height: 1100px;
+		height: 900px;
 	}
 }
 
 @media (max-width: 450px) {
 	.reg-frame{
-		height: 1240px;
+		height: 1150px;
 	}
 }
 
